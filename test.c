@@ -4,9 +4,9 @@
 
 int main(void)
 {
-    int left = 12;
-    int right = 30;
+    int a = 12;
+    int b = 30;
 
-    printf("%d + %d = %d\n", left, right, add(left, right));
+    printf("%d + %d = %d\n", a, b, add(a, b));
     return 0;
 }
