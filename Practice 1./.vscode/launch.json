@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C: Debug project",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/practice",
+            "cwd": "${workspaceFolder}",
+            "terminal": "integrated",
+            "preLaunchTask": "C: clang build project"
+        }
+    ]
+}
